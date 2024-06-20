@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Examen from './componentes/Examen'
+import Header from './componentes/Header'
 import './index.css'
+import Home from './componentes/Home'
+import Navegacion from './routers/Navegacion'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    
-    <Examen/>
-
+    <Navegacion/>
   </React.StrictMode>,
 )
